@@ -4,7 +4,7 @@ I conducted an analysis of Adidas and Nike product and SKU data, focusing on Adi
 
 Recommendations and Insights:
 
-Product Count by Gender and Body Type: I categorizes products by gender (Men's, Women's) and body type (Shoes, Bags, Clothing, Miscellaneous) to understand the distribution of products. This can help identify which types of products are more popular or may need further analysis.
+Product Count by Gender and Product Type: I categorizes products by gender (Men's, Women's) and product type (Shoes, Bags, Clothing, Miscellaneous) to understand the distribution of products. This can help identify which types of products are more popular or may need further analysis.
 
 Top Ranking Products: By filtering products with a rating of 4 or higher, the code identifies 2392 units that are highly rated. This suggests that these products are performing well and can continue to be sold with the same strategy.
 

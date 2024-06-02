@@ -1,6 +1,8 @@
 # Adidas-and-Nike-analysis-using-SQL-Data-transformation-schema-creation-data-cleaning
 
-I condudcted an analysis of Adidas and Nike product and SKU data, focusing on Adidas while considering Nike as a competitor. The analysis includes quick data exploration through left joins between several tables, filtering top and least ranking products by customer rating, and analyzing various aspects such as revenue, pricing, discounts, and product counts. Here are some insights and remarks based on my analysis using SQL:
+I conducted an analysis of Adidas and Nike product and SKU data, focusing on Adidas while considering Nike as a competitor. The analysis includes quick data exploration through left joins between several tables, filtering top and least ranking products by customer rating, and analyzing various aspects such as revenue, pricing, discounts, and product counts. Here are some insights and remarks based on my analysis using SQL:
+
+Recommendations and Insights:
 
 Product Count by Gender and Body Type: The code categorizes products by gender (Men's, Women's) and body type (Shoes, Bags, Clothing, Miscellaneous) to understand the distribution of products. This can help identify which types of products are more popular or may need further analysis.
 

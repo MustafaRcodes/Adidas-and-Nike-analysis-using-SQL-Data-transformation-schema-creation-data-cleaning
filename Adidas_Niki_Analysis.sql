@@ -142,7 +142,32 @@ FROM
     INNER JOIN brands 
     ON brands.product_id = finance.product_id
 WHERE (finance.revenue/finance.sale_price) is not Null
-ORDER BY finance.listing_price DESC
+ORDER BY finance.listing_price DESC;
 -- If we have more data avaiable, we can caluclate number of units sold before discount and after discount
 
+SELECT
+    brands.brand,
+    finance.product_id,
+    finance.revenue AS revenue_with_discount,
+    (finance.revenue/finance.sale_price)*listing_price as revenue_without_discount,
+    finance.revenue-(finance.revenue/finance.sale_price)*listing_price as loss_of_revenue
+    FROM 
+    finance
+    INNER JOIN brands 
+    ON brands.product_id = finance.product_id
+WHERE (finance.revenue/finance.sale_price) is not Null
+ORDER BY finance.listing_price DESC;
 
+SELECT
+    brands.brand,
+    sum(((finance.revenue/finance.sale_price)*listing_price)-finance.revenue) as loss_of_revenue
+FROM 
+    finance
+    INNER JOIN brands 
+    ON brands.product_id = finance.product_id
+WHERE (finance.revenue/finance.sale_price) is not Null
+GROUP BY
+     brands.brand
+-- In discounts adidas is lost Five million, five hundred sixty-seven thousand, eight dollars or $5567008 
+-- VS Nike is not in losing due to price markdown
+-- Adidas need to change pricing strategy due significant amount of money are leaving on table.

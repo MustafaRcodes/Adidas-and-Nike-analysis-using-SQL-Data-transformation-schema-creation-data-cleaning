@@ -1,4 +1,4 @@
-# Adidas-and-Nike-analysis-using-SQL-Data-transformation-schema-creation-data-cleaning
+# Retail Analytics- Adidas-and-Nike-analysis-using-SQL-Data-transformation-schema-creation-data-cleaning
 
 I conducted an analysis of Adidas and Nike product and SKU data, focusing on Adidas while considering Nike as a competitor. The analysis includes quick data exploration through left joins between several tables, filtering top and least ranking products by customer rating, and analyzing various aspects such as revenue, pricing, discounts, and product counts. Here are some insights and remarks based on my analysis using SQL:
 

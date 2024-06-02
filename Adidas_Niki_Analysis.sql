@@ -130,3 +130,19 @@ ORDER BY reviews.real_rating DESC, SUM(finance.revenue) DESC;
 -- Interesting to see why adidas is giving more than 50% discount on high rating product.
 -- Adidas can maximize revenue by reducing discount percentage on top selling and high rating product.
 
+-- Analyzing number if units sold per product/SKU
+SELECT 
+    brands.brand,
+    finance.product_id,
+    finance.listing_price,
+    finance.discount,
+    (finance.revenue/finance.sale_price) as number_of_units_sold
+FROM 
+    finance
+    INNER JOIN brands 
+    ON brands.product_id = finance.product_id
+WHERE (finance.revenue/finance.sale_price) is not Null
+ORDER BY finance.listing_price DESC
+-- If we have more data avaiable, we can caluclate number of units sold before discount and after discount
+
+

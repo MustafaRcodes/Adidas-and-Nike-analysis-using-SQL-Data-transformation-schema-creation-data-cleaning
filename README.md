@@ -1,5 +1,14 @@
 # Retail Analytics- Adidas-and-Nike-analysis-using-SQL-Data-transformation-schema-creation-data-cleaning
 
+The Situation: One of the big box retail chain stores reached out to me to find ways of boosting their revenue by analyzing Adidas and Nike products and coming up with some strategies that could help increase sales and revenue.
+
+The Brief: I received data in SQLite format, and I first transformed it to .SQL and made a few manipulations in schemas and tables before loading it for further analysis. Once the data types and tables were ready, I performed the analysis by utilizing different clauses, operators, and aggregations in SQL.
+
+The Objective: The business problem is a loss of revenue, and my objective is to analyze the data and figure out how the retail store can maximize profitability.
+
+Limitation: The only limitations are the quality of the data and the lack of data availability.
+
+
 I conducted an analysis of Adidas and Nike product and SKU data, focusing on Adidas while considering Nike as a competitor. The analysis includes quick data exploration through left joins between several tables, filtering top and least ranking products by customer rating, and analyzing various aspects such as revenue, pricing, discounts, and product counts. Here are some insights and remarks based on my analysis using SQL:
 
 Recommendations and Insights:

@@ -1,5 +1,10 @@
 # Retail Analytics- Adidas-and-Nike-analysis-using-SQL-Data-transformation-schema-creation-data-cleaning
 
+Data Modelling, Schema creation and data transformation
+
+<img width="329" alt="image" src="https://github.com/MustafaRcodes/SQL-Project-Adidas-and-Nike-analysis-Data-transformation-schema-creation-data-cleaning/assets/150495517/32ee1362-26e0-4267-a077-d54f48e19254">
+
+
 The Situation: One of the big box retail chain stores reached out to me to find ways of boosting their revenue by analyzing Adidas and Nike products and coming up with some strategies that could help increase sales and revenue.
 
 The Brief: I received data in SQLite format, and I first transformed it to .SQL and made a few manipulations in schemas and tables before loading it for further analysis. Once the data types and tables were ready, I performed the analysis by utilizing different clauses, operators, and aggregations in SQL.

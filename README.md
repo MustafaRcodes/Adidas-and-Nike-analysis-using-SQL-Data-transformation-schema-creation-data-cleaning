@@ -2,7 +2,8 @@
 
 Data Modelling, Schema creation and data transformation
 
-<img width="329" alt="image" src="https://github.com/MustafaRcodes/SQL-Project-Adidas-and-Nike-analysis-Data-transformation-schema-creation-data-cleaning/assets/150495517/32ee1362-26e0-4267-a077-d54f48e19254">
+<img width="574" alt="image" src="https://github.com/MustafaRcodes/SQL-Project-Adidas-and-Nike-analysis-Data-transformation-schema-creation-data-cleaning/assets/150495517/96e810b7-407e-48f7-97fb-f27ee16a01e1">
+
 
 
 The Situation: One of the big box retail chain stores reached out to me to find ways of boosting their revenue by analyzing Adidas and Nike products and coming up with some strategies that could help increase sales and revenue.

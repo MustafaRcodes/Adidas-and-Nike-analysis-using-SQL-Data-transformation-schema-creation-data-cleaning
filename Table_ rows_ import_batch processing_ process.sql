@@ -11,3 +11,11 @@ FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
 --- below is to check path where CSV file will be saved for batch processing or loading 
 SHOW VARIABLES LIKE "secure_file_priv";
+
+
+-- To insert data into an existing table 'brandscsvimport' use the INSERT INTO statement.
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Brands.csv' 
+INTO TABLE brandscsvimport
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+
